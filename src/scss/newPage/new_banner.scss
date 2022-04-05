@@ -1,0 +1,66 @@
+.new_banner_container {
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(15, 15, 15, 0.7),
+      rgba(15, 15, 15, 0.7)
+    ),
+    url("https://i.ibb.co/hdWn65V/900c7dc8-f676-4505-aec7-c551c28a3f6a.jpg ");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.new_banner_content {
+  width: 1320px;
+  padding: 0 12px;
+}
+
+.new_banner_content_title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.new_banner_content_info {
+  color: #fff;
+  margin: 5px 0 30px 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner_content {
+    padding: 0 20px;
+  }
+
+  .modal-dialog {
+    max-width: 700px;
+  }
+}
+
+/* $$$$$-smart phone$$$$- */
+
+@media only screen and (max-width: 480px) {
+  .new_banner_content {
+    width: 100%;
+  }
+
+  .new_banner_content_title,
+  .banner_content_title_span1 {
+    font-size: 36px;
+  }
+
+  .new_banner_content {
+    padding: 20px;
+  }
+
+  .new_banner_content_info {
+    font-size: 18px;
+  }
+}

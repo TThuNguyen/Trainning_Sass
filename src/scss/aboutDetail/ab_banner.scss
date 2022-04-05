@@ -1,0 +1,54 @@
+.dobanner_container {
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(36, 36, 36, 0.7),
+      rgba(36, 36, 36, 0.7)
+    ),
+    url("https://i.ibb.co/2FSJQd4/PNV-2020-XMas2020-Video-2020-XMas-Photos.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.dobanner_content {
+  width: 1320px;
+  padding: 0 12px;
+}
+
+.dobanner_content_title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.dobanner_content_title_span1 {
+  font-weight: 700;
+  font-size: 48px;
+  color:#22bbea;
+  font-family: "Poppins", sans-serif;
+}
+
+/* $$$$$ipad$$$$$$$$$$$$$$- */
+
+@media only screen and (max-width: 1024px) {
+  .dobanner_content {
+    padding: 0 40px;
+  }
+}
+
+/* $$$$$-smart phone$$$$- */
+
+@media only screen and (max-width: 480px) {
+  .dobanner_content {
+    width: 100%;
+  }
+
+  .dobanner_content_title,
+  .dobanner_content_title_span1 {
+    font-size: 36px;
+  }
+}

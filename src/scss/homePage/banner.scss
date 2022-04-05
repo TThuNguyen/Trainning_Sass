@@ -1,0 +1,145 @@
+.banner_container {
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(15, 15, 15, 0.7),
+      rgba(15, 15, 15, 0.7)
+    ),
+    url("https://i.ibb.co/8XQQ2X0/PNV-2020-10-30-Graduation-Ceremony-10th-Anniversary-Mr-Hieu-s-Cam.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner_content {
+  width: 1320px;
+  padding: 0 12px;
+}
+
+.banner_content_title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.banner_content_title_span1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #22bbea;
+  font-family: "Poppins", sans-serif;
+}
+
+.banner_content_info {
+  color: #fff;
+  margin: 5px 0 30px 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.banner_content_subcribe {
+  width: 500px;
+  font-size: 16px;
+  border-radius: 4px;
+  display: flex;
+}
+.banner_input {
+  font-family: "Roboto", sans-serif;
+  padding: 5px 10px;
+  border: none;
+  width: 400px;
+  border-radius: 4px 0 0 4px;
+}
+
+.banner_button_subcribe {
+  font-weight: 500;
+  width: 100px;
+  line-height: 35px;
+  font-weight: 600;
+  border: none;
+  color: #3d3d3d;
+  background: #b2bec3;
+  border-radius: 0 4px 4px 0;
+}
+
+.banner_button {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.banner_button_enroll {
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #3d3d3d;
+  border: none;
+  background-color: var($pn_blue);
+}
+
+.banner_button_watch {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.banner_button_watch i {
+  font-size: 32px;
+  color: var($pn_blue);
+}
+.banner_button_watch div {
+  font-weight: 600;
+  margin-left: 5px;
+  color: white;
+}
+
+.banner_button_watch:hover div {
+  color: var($pn_blue);
+  transition: 0.3s;
+}
+
+/* $$$$$ipad$$$$$$$$$$$$$$- */
+
+@media only screen and (max-width: 1024px) {
+  .banner_content {
+    padding: 0 40px;
+  }
+
+  .modal-dialog {
+    max-width: 700px;
+  }
+}
+
+/* $$$$$-smart phone$$$$- */
+
+@media only screen and (max-width: 480px) {
+  .banner_content {
+    width: 100%;
+  }
+
+  .banner_content_title,
+  .banner_content_title_span1 {
+    font-size: 36px;
+  }
+
+  .banner_content_subcribe {
+    width: 320px;
+  }
+
+  .banner_content {
+    padding: 20px;
+  }
+
+  .banner_content_info {
+    font-size: 18px;
+  }
+
+  .banner_input {
+    width: 220px;
+  }
+}

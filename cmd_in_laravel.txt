@@ -1,0 +1,39 @@
+php artisan make:command {mysql}    ------> tạo file để create database
+php artisan mysql:createdb {name data)  ----> create database
+php artisan make:migration {name} ----> tạo file migration
+php artisan migrate ---> tạo all bảng
+php artisan make:seeder {name} -----> tạo file seeder
+php artisan db:seed  -------> chạy all file seeder
+php artisan db:seed --class={name}   ----> chạy 1 file seeder
+php artisan make:controller {name} --resource    ---> tạo file controller kèm 7 hàm 
+php artisan make:model {name}  --> tạo model
+php artisan make:controller {name}  --> tạo controller
+php artisan route:list  -----> show all url
+npm install bootstrap reactstrap ----> cài bootstrap
+
+khi mới clone bài về 
+- laravel: composer install ->> kiểm tra có file env chưa ->> php artisan key:generate
+- reactjs: npm install
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+url = "http://localhost:3000/orders";
+url_user = "http://localhost:3000/users";
+
+callAPI(url_api, method, body) {
+    axios({
+      method: method,
+      url: url_api,
+      data: body,
+    })
+      .then((res) => {
+        this.setState({ results: res.data });
+      })
+      .catch((err) => {
+        alert(err);
+      });
+  }
+
+https://www.youtube.com/watch?v=6gz5F6kIFQo testing
+https://www.youtube.com/watch?v=JlMNRrM_8cM

@@ -1,0 +1,111 @@
+.ab-subtitle h5{
+    font-size: 17px;
+    font-weight: none;
+}
+
+.ab-detail {
+    position: relative;
+    width: 100%;
+    padding: 40px 0 20px 0;
+
+}
+
+.ab-detail .section-header {
+    margin-bottom: 20px;
+}
+
+.ab-detail .ab-detail-text {
+    position: relative;
+    width: 100%;
+}
+.ab-detail .ab-detail-img {
+    border-radius: 15px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.ab-detail .ab-detail-img .col-6,
+.ab-detail .ab-detail-img .col-12 {
+    padding: 0;
+    overflow: hidden;
+}
+.ab-detail .ab-detail-img img {
+    width: 100%;
+    transition: .3s;
+}
+.ab-detail .ab-detail-img img:hover {
+    transform: scale(1.1);
+}
+
+.ab-detail .ab-detail-text .btn {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+.ab-detail .ab-detail-item {
+    width: 100%;
+    display: flex;
+   align-items: center;
+}
+.ab-detail .ab-detail-body {
+    margin-bottom: 35px;   
+}
+.ab-detail .ab-detail-item a {
+    
+    display: inline-block;
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3498db;
+    border-radius: 35px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.ab-detail .ab-detail-item h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+
+/********** Value CSS ***********/
+
+.ab-value {
+    position: relative;
+    width: 100%;
+    padding: 40px 0 20px 0;
+    background: rgba(0, 0, 0, .04);
+   
+}
+
+.ab-value .ab-value-item {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 50px 30px 30px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+    transition: .3s;
+}
+
+.ab-value .ab-value-item:hover {
+    box-shadow: none;
+}
+
+.ab-value .ab-value-item h2 {
+    font-size: 25px; 
+    margin-top: 10px; 
+}
+.ab-value-img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;   
+}
+.ab-value .ab-value_a{
+    justify-content: center;
+}
+

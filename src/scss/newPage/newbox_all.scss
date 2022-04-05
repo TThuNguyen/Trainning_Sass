@@ -1,0 +1,48 @@
+
+ 
+ 
+.all_page_pagination {
+  display: inline-block;
+}
+
+.all_page_pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.all_page_pagination a.active {
+  background-color: var($pn_blue);
+  color: white;
+  border: 1px solid var($pn_blue);
+}
+
+/* .all_page_pagination a:hover:not(.active) { */
+.all_page_pagination a:hover  {
+  border: 1px solid var($pn_orange);
+  background-color: var($pn_orange);
+  color: var($white);
+}
+.all_center{
+  display:center;
+}
+.all_content {
+  width: 1030px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.all_content_page{
+padding-right: auto;
+padding-left: auto;
+}
+
+.all_page {
+  margin: 0 auto;
+}

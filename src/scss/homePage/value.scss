@@ -1,0 +1,62 @@
+#value {
+  background-image: linear-gradient(
+      rgba(42, 42, 42, 0.7),
+      rgba(42, 42, 42, 0.7)
+    ),
+    url("https://picjumbo.com/wp-content/uploads/office-desk-gear-smartphone-tablet-1570x1047.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+#value .layout_content {
+  padding: 100px 0;
+}
+#value .layout_title {
+  display: none;
+}
+
+.value_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+}
+.value_item {
+  height: 170px;
+  width: 170px;
+  background-color: rgba(34, 187, 234, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(55deg);
+}
+
+.value_title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  transform: rotate(-55deg);
+}
+
+@media only screen and (max-width: 480px) {
+  .value_container {
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .value_item {
+    height: 130px;
+    width: 130px;
+    transform: rotate(45deg);
+  }
+  .value_title {
+    transform: rotate(-45deg);
+  }
+  .value_center {
+    position: absolute;
+    top: 115px;
+    right: 115px;
+  }
+  .value_mt {
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,128 @@
+.content_img {
+  width: 900px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.main {
+  max-width: 1230px;
+  margin: 100px auto 0 auto;
+}
+
+.detail p {
+  font-size: 40px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .detail_column {
+  padding: 8px;
+}
+
+.detail_column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+.content h4 {
+  margin-top: 20px;
+}
+
+.content_bottom {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width: 900px) {
+  .detail_column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .detail_column {
+    width: 100%;
+  }
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.main_comment {
+  max-width: 1230px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.main_comment_form {
+  margin: auto;
+  margin-bottom: 50px;
+}
+.icon_return {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.icon_return img {
+  width: 50px;
+  height: 50px;
+}
+
+.new_comment {
+  margin-top: 30px;
+}
+
+.new_comment_content {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.new_comment_name_content {
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 5px;
+}
+
+.new_comment_name {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+}

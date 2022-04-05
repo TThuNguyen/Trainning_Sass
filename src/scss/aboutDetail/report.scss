@@ -1,0 +1,101 @@
+/*********** Report CSS **********/
+/**********************************/
+.ab-report {
+    padding: 60px 0 80px;
+  }
+  
+  .ab-report .ab-report-box {
+    padding: 30px 30px 25px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: #f1f6fe;
+  }
+  
+  .ab-report .ab-report-box i {
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    background: #106eea;
+    color: #fff;
+    width: 56px;
+    height: 56px;
+    line-height: 0;
+    border-radius: 50px;
+    border: 5px solid #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ab-report .ab-report-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #062b5b;
+  }
+  
+  .ab-report .ab-report-box p {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+  }
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+# ab-report CSS
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.ab-report .ab-report-content{
+    margin-top: 90px;
+}
+.ab-report .ab-report-progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  
+  .ab-report .ab-report-progress .ab-report-skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    
+    display: block;
+    font-weight: none;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+  }
+  
+  .ab-report .ab-report-progress .ab-report-skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+  .ab-report .ab-report-progress-bar-wrap {
+    background: #e2eefd;
+    height: 20px;
+  }
+  
+  .ab-report .ab-report-progress-bar {
+    width: 1px;
+    height: 20px;
+    transition: .9s;
+    font-size: 16px;
+    background-color: #106eea;
+    color: white;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 1027px) {
+    .ab-report  {
+      display: block;
+    }
+  }
+  
+ 
+    
+
+  
+  
